@@ -9,3 +9,4 @@ Build the image:
   $ docker build -t todo-app .  
 Run container:    
   $ docker run -dp 127.0.0.1:3000:3000 todo-app  
+Open Browser and connect to http://localhost:3000/  
